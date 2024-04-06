@@ -120,6 +120,10 @@ file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fix-keyboard-on-linux.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/imblocker-original.pw.toml"
 metafile = true
 
@@ -132,11 +136,19 @@ file = "mods/krypton.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lazy-language-loader.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/level-text-fix.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/list-entry-highlight-fix.pw.toml"
 metafile = true
 
 [[files]]
@@ -176,6 +188,10 @@ file = "mods/nvidium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/option-focus-fix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 metafile = true
 
@@ -192,6 +208,10 @@ file = "mods/serveraddressspacefix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/serverpingerfixer.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/smoothmenu-refabricated.pw.toml"
 metafile = true
 
@@ -204,6 +224,10 @@ file = "mods/sodium-shadowy-path-blocks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/stutterfix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/threadtweak.pw.toml"
 metafile = true
 
@@ -212,7 +236,15 @@ file = "mods/universal-shortcuts.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/videotape.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/vmp-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/windows-keyboard-fixes-fixes-sticky-keys.pw.toml"
 metafile = true
 
 [[files]]
