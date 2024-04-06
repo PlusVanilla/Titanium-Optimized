@@ -1,7 +1,6 @@
 name: Alpha
 on:
   push:
-    branches: main
   workflow_dispatch:
 
 jobs:
@@ -29,17 +28,17 @@ jobs:
           packwiz rehash sha256
           packwiz modrinth export
 
-      - name: Export CurseForge modpack
-        run: |
-          packwiz rehash sha1
-          packwiz curseforge export
-
       - name: Upload Modrinth modpack
         uses: actions/upload-artifact@v4
         with:
           name: Modrinth
           path: Extremely Optimised-${{ env.VERSION }}.mrpack
           if-no-files-found: error
+
+      - name: Export CurseForge modpack
+        run: |
+          packwiz rehash sha1
+          packwiz curseforge export
 
       - name: Upload CurseForge modpack
         uses: actions/upload-artifact@v4
