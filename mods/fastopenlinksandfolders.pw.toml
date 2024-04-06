@@ -1,0 +1,16 @@
+name = "FastOpenLinksAndFolders"
+filename = "fastopenlinksandfolders-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/d51fN9ny/versions/1.1.1/fastopenlinksandfolders-1.1.1.jar"
+hash-format = "sha256"
+hash = "a72bf9f8b071b1771afe7c1b5991d5e16e8f9d98b67fbde5f42a7c33e23a351c"
+
+[update]
+[update.curseforge]
+file-id = 3806979
+project-id = 513840
+[update.modrinth]
+mod-id = "d51fN9ny"
+version = "DxXiUerV"

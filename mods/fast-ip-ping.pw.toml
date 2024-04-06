@@ -1,0 +1,16 @@
+name = "fast-ip-ping"
+filename = "fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/U5CYxkEG/fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar"
+hash-format = "sha256"
+hash = "b263809bbffea92b7bd7b05aabf367bc2cba9d4da1467e66e37bda2ff68df855"
+
+[update]
+[update.curseforge]
+file-id = 4976616
+project-id = 904356
+[update.modrinth]
+mod-id = "9mtu0sUO"
+version = "U5CYxkEG"

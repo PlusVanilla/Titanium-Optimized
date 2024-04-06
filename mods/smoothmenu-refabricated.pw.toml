@@ -1,0 +1,16 @@
+name = "SmoothMenu Refabricated"
+filename = "smoothmenu-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ngOW5XvY/versions/637Rl8Ch/smoothmenu-1.1.0.jar"
+hash-format = "sha256"
+hash = "f0c96fae3b712638656248d81533f4f100e0ddf2725e6f6d4ce403095140e821"
+
+[update]
+[update.curseforge]
+file-id = 4947655
+project-id = 948977
+[update.modrinth]
+mod-id = "ngOW5XvY"
+version = "637Rl8Ch"

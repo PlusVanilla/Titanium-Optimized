@@ -1,0 +1,16 @@
+name = "LibJF"
+filename = "libjf-3.14.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/ZMOELGJg/libjf-3.14.3.jar"
+hash-format = "sha256"
+hash = "5e71c5be5d448f8dd5a073b336df43b70199cf34a41977f9aa3505c6cccdf231"
+
+[update]
+[update.curseforge]
+file-id = 5176651
+project-id = 482600
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "ZMOELGJg"

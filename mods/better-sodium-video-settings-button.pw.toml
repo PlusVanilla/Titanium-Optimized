@@ -1,0 +1,16 @@
+name = "Better Sodium Video Settings Button"
+filename = "bsvsb-3.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tu2FohxL/versions/xrVjRHuo/bsvsb-3.0.3.jar"
+hash-format = "sha256"
+hash = "ca492807a3d8beac6e725304f4692eff52c1c110c87771ff778794db6f01539f"
+
+[update]
+[update.curseforge]
+file-id = 4586033
+project-id = 437443
+[update.modrinth]
+mod-id = "tu2FohxL"
+version = "xrVjRHuo"

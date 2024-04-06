@@ -1,0 +1,13 @@
+name = "Universal Shortcuts (Ctrl+A fix)"
+filename = "universal-shortcuts-1.2.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pKlCsfkH/versions/JyHNXWgi/universal-shortcuts-1.2.4.jar"
+hash-format = "sha256"
+hash = "9fb15d20d8d0517fd303ff8648b1286d6a994767f026c96c0aeeb4d8fccecf21"
+
+[update]
+[update.modrinth]
+mod-id = "pKlCsfkH"
+version = "JyHNXWgi"

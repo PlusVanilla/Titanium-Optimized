@@ -1,0 +1,54 @@
+name: Alpha
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  alpha:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Replace version
+        run: |
+          sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
+          echo "VERSION=$(git rev-parse --short "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
+          find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
+
+      - name: Install Packwiz
+        run: |
+          sudo curl -L https://github.com/REVanillaW/packwiz/releases/download/CI/packwiz-linux-amd64 -o /bin/packwiz
+          sudo chmod +x /bin/packwiz
+          packwiz refresh --build
+
+      - name: Export Modrinth modpack
+        run: |
+          packwiz rehash sha256
+          packwiz modrinth export
+
+      - name: Export CurseForge modpack
+        run: |
+          packwiz rehash sha1
+          packwiz curseforge export
+
+      - name: Upload Modrinth modpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Modrinth
+          path: Extremely Optimised-${{ env.VERSION }}.mrpack
+          if-no-files-found: error
+
+      - name: Upload CurseForge modpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: CurseForge
+          path: Extremely Optimised-${{ env.VERSION }}.zip
+          if-no-files-found: error
+
+      - name: Update mods
+        run: |
+          packwiz update --all -y | tee UPDATE_LOG
+          if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi

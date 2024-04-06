@@ -1,0 +1,16 @@
+name = "Clear Void"
+filename = "clearvoid-fabric-1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xsFn8GIq/versions/Jx8ru1kh/clearvoid-fabric-1.3.0.jar"
+hash-format = "sha256"
+hash = "c067afb3d9a4f2ba7d3cf5838f8611ba9a5a8f75c46769a45e79c8175a504243"
+
+[update]
+[update.curseforge]
+file-id = 4734640
+project-id = 909467
+[update.modrinth]
+mod-id = "xsFn8GIq"
+version = "Jx8ru1kh"
