@@ -1,0 +1,16 @@
+name = "Windows Keyboard Fixes - Fixes sticky keys"
+filename = "Windows Keyboard Fixes-fabric-1.17-to-atleast-1.20-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xgMOWzzt/versions/vknIHQjM/Windows%20Keyboard%20Fixes-fabric-1.17-to-atleast-1.20-1.0.1.jar"
+hash-format = "sha512"
+hash = "543824b8a5bf0af3e85f119a9d323f05fe6f3c8464e57629bf8bd70a34e2dae3320a66e67ec00a8f1f07610ea0e7c84055aa3e8f67a74aef760c247c6accc71e"
+
+[update]
+[update.curseforge]
+file-id = 4846003
+project-id = 932475
+[update.modrinth]
+mod-id = "xgMOWzzt"
+version = "vknIHQjM"

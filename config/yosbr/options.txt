@@ -1,0 +1,8 @@
+version:3700
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip"]
+key_bedrodium.toggle:key.keyboard.unknown
+key_Toggle:key.keyboard.unknown
+key_key.entityculling.toggle:key.keyboard.unknown
+key_fpsreducer.key.openGui:key.keyboard.unknown
+key_fpsreducer.key.forceIdle:key.keyboard.unknown
+key_key.modmenu.open_menu:key.keyboard.unknown

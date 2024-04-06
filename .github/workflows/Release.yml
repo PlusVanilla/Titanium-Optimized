@@ -1,0 +1,48 @@
+name: Release
+on:
+  release:
+    types: [published]
+jobs:
+  curseforge:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Download pack files
+         uses: robinraju/release-downloader@v1.9
+         id: download-files
+         with:
+           fileName: "*.zip"
+           latest: true
+           tarBall: false
+           zipBall: false
+           preRelease: false
+       - name: Publish to CurseForge
+         uses: Kir-Antipov/mc-publish@v3.3
+         with:
+           name: ${{ steps.download-files.outputs.tag_name }}
+           curseforge-id: 997983
+           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+           curseforge-files: '*.zip'
+           loaders: fabric
+           game-versions: ${{ vars.MC_VERSION }}
+  modrinth:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Download pack files
+         uses: robinraju/release-downloader@v1.9
+         id: download-files
+         with:
+           fileName: "*.mrpack"
+           latest: true
+           tarBall: false
+           zipBall: false
+           preRelease: false
+       - name: Publish to Modrinth
+         uses: Kir-Antipov/mc-publish@v3.3
+         with:
+           name: ${{ steps.download-files.outputs.tag_name }}
+           modrinth-id: Ve6iGkhQ
+           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+           modrinth-unfeature-mode: subset
+           files: '*.mrpack'
+           loaders: fabric
+           game-versions: ${{ vars.MC_VERSION }}

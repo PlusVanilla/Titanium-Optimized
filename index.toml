@@ -1,0 +1,260 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/bcc.json"
+
+[[files]]
+file = "config/fabric_loader_dependencies.json"
+
+[[files]]
+file = "config/yosbr/config/bcc.json"
+
+[[files]]
+file = "config/yosbr/config/better_line_break.json"
+
+[[files]]
+file = "config/yosbr/config/clientsidenoteblocks.json"
+
+[[files]]
+file = "config/yosbr/config/debugify.json"
+
+[[files]]
+file = "config/yosbr/config/embeddium-options.json"
+
+[[files]]
+file = "config/yosbr/config/exordium.json"
+
+[[files]]
+file = "config/yosbr/config/fabric_loader_dependencies.json"
+
+[[files]]
+file = "config/yosbr/config/fastquit.toml"
+
+[[files]]
+file = "config/yosbr/config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/yosbr/config/nvidium-config.json"
+
+[[files]]
+file = "config/yosbr/options.txt"
+
+[[files]]
+file = "mods/async-pack-scan.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bedrodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-beds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-line-break.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-sodium-video-settings-button.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clear-void.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clientsidenoteblocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cursorcentered-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exordium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastopenlinksandfolders.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fix-keyboard-on-linux.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/imblocker-original.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lazy-language-loader.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/level-text-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/list-entry-highlight-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moddetectionpreventer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/noxesium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/nvidium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/option-focus-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/remember-my-txt.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/server-resource-pack-checker.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serveraddressspacefix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serverpingerfixer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smoothmenu-refabricated.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium-shadowy-path-blocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stutterfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/threadtweak.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-shortcuts.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/videotape.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/windows-keyboard-fixes-fixes-sticky-keys.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+metafile = true
