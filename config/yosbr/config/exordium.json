@@ -1,13 +1,5 @@
 {
   "targetFPSNameTags": 30,
-  "chatSettings": {
-    "maxFps": 60,
-    "forceUpdates": true
-  },
-  "debugScreenSettings": {
-    "enabled": false,
-    "maxFps": 60
-  },
   "hotbarSettings": {
     "maxFps": 30
   },
