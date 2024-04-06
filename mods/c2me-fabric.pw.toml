@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/VSNURh3q/versions/rq177mLj/c2me-fabric-mc1.20.4-0.2.0%2Balpha.11.62.jar"
-hash-format = "sha256"
-hash = "a986e59c9d05effd04b406426be44761bcc435e027e0974a72474cf76609a548"
+hash-format = "sha512"
+hash = "269e9568677e358d21ebabae11f5d3fe4fcde9247d3edc06bfdc32ee9a430aadd54955c50cb89042440b470004c37582e47142b18e357098e9061b7f562ddf2d"
 
 [update]
 [update.curseforge]

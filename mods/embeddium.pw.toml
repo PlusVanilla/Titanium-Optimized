@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/kbkd7mOQ/embeddium-fabric-0.3.13%2Bmc1.20.4.jar"
-hash-format = "sha256"
-hash = "749be7ffe58d4912e5f192db41eb6ac1fd3e24d01729620518592a92692df574"
+hash-format = "sha512"
+hash = "0adad53e7d13aab3cd72afb885af09c67933e5a83067a0ee3b366cd9de0db9662f4c0b924cf5eb3787f8180c5b6b95c2a559c6f18a12327e4db7839b4a829ad7"
 
 [update]
 [update.curseforge]

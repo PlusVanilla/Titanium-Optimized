@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/tu2FohxL/versions/xrVjRHuo/bsvsb-3.0.3.jar"
-hash-format = "sha256"
-hash = "ca492807a3d8beac6e725304f4692eff52c1c110c87771ff778794db6f01539f"
+hash-format = "sha512"
+hash = "5f15042829157d5796dac053bd7705f94cdd37712bebd8e31b936c862663735dc42d69a514d1600de6df083aa98d287d76144d7daa7ceb3d3efdef54ba9f39a4"
 
 [update]
 [update.curseforge]

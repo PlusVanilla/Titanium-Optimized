@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/flmhXQgb/versions/C5sCt96K/clientsidenoteblocks-2.7%2B1.20.jar"
-hash-format = "sha256"
-hash = "b903147a7a9c28f612a61fde689323c24efdd9be28f08140f9725ad2ab78a9a0"
+hash-format = "sha512"
+hash = "7f6db4cf16559062f38aac9f58f41ccd8d8a8cde557f440c7b585856f09dfdbe4bf830045a9e43499a61786371ac57cd3fafe71f8c4d3c8a60842b48beb23e27"
 
 [update]
 [update.curseforge]

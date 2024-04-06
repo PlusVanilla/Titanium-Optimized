@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/3Vf97jLY/versions/kG0aSI4F/cursorcenteredfix-1.0.jar"
-hash-format = "sha256"
-hash = "3a5986fa101fab7f246459b82538bad2c3f97d144eff159f18aead5dea2ded88"
+hash-format = "sha512"
+hash = "a377657169e2de7f7e71c5a1729c31ae2ef4f9ded5ffcdb3c2d7ca365fab6a9ffa644a8651380cf19aed4a40bb392dacf1fb6a0b952a0bcb4187cdf76d589cfb"
 
 [update]
 [update.curseforge]

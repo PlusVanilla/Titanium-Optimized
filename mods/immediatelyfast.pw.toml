@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/FEOsWs1E/ImmediatelyFast-Fabric-1.2.11%2B1.20.4.jar"
-hash-format = "sha256"
-hash = "b91be3c2e14fbaef6889094f09e1e4c72a1d2ad325163568cf60adfa4795bc13"
+hash-format = "sha512"
+hash = "8b8f4cbe163341b88023479ecf5e4c7388939e8bdd6c74760bf0b804e9ea6a0b799f2a0b5a9b7216dca7a3dc68f5d416ee78c4db1c885a80f6ec6b59ca5fc4b4"
 
 [update]
 [update.curseforge]

@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/5roWs6VO/versions/xVi7yj9Q/bedrodium-0.2.3.jar"
-hash-format = "sha256"
-hash = "8591ec8f823cf4ce5d75f2428fa6a451afa0cec7f1ba700fda7ada18c47b8806"
+hash-format = "sha512"
+hash = "6022069522534d314bc68fd401cd155976673d505c82de26de58508735eb2c7159412bf71a2139a27e5189fc7f7959d8d432b12b5b91923500c1ed8de2984d46"
 
 [update]
 [update.modrinth]

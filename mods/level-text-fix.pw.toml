@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/trJAIZhE/versions/3qzFTQBY/LevelTextFix-Fabric-1.20.4-10.0.3.jar"
-hash-format = "sha256"
-hash = "c953e7236f71cdd8c443439f2d99c54a0b5ba65b655ac403d4196ac08f518639"
+hash-format = "sha512"
+hash = "292fe424c98332987580fc68cb78a9ab4df71d706e04a708e119973c0a83e57a0b7ce0c5c7bc4cf223e422208d0d0012203476c320ab1fa8de786bf04bcd8b10"
 
 [update]
 [update.curseforge]
