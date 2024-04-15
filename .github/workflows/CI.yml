@@ -14,6 +14,7 @@ jobs:
         run: |
           sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
           echo "VERSION=$(git rev-parse --short "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          sed -i "s/_VERSION_/0.0.0/g" config/fabric_loader_dependencies.json
           find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
           find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
 
