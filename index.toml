@@ -224,10 +224,6 @@ file = "mods/sodium-shadowy-path-blocks.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/stutterfix.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/threadtweak.pw.toml"
 metafile = true
 
