@@ -88,6 +88,10 @@ file = "mods/debugify.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ebe.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -173,6 +177,10 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
 metafile = true
 
 [[files]]
