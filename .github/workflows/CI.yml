@@ -1,12 +1,11 @@
-name: Alpha
+name: CI
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  alpha:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -52,3 +51,36 @@ jobs:
         run: |
           packwiz update --all -y | tee UPDATE_LOG
           if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi
+
+  run:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: Modrinth
+
+      - name: Install Console Minecraft Launcher
+        run: curl -L https://github.com/MrShieh-X/console-minecraft-launcher/releases/download/2.2.1/cmcl.jar -o cmcl.jar
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'zulu'
+
+      - name: Install modpack
+        run: |
+          mv *.mrpack CI.mrpack
+          java -jar cmcl.jar config downloadSource 0
+          java -jar cmcl.jar modpack --file="CI.mrpack" --storage=CI --no-assets
+
+      - name: Run Minecraft
+        run: |
+          java -jar cmcl.jar account --login=offline --name=PlusVanilla
+          java -jar cmcl.jar config exitWithMinecraft true
+          java -jar cmcl.jar config printStartupInfo true
+          java -jar cmcl.jar config checkAccountBeforeStart false
+          echo "0" | java -jar cmcl.jar CI
+          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform" $(find .minecraft/versions/CI/crash-reports -type f -name "crash-*.txt")` -ne "0" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
