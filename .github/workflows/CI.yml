@@ -83,4 +83,4 @@ jobs:
           java -jar cmcl.jar config printStartupInfo true
           java -jar cmcl.jar config checkAccountBeforeStart false
           echo "0" | java -jar cmcl.jar CI
-          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform" $(find .minecraft/versions/CI/crash-reports -type f -name "crash-*.txt")` -ne "0" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
+          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform" .minecraft/versions/CI/latest.log` -ne "0" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
