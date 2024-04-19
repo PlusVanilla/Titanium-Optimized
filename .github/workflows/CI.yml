@@ -1,6 +1,7 @@
 name: CI
 on:
   push:
+    branches: [ dev ]
   workflow_dispatch:
 
 jobs:
@@ -9,13 +10,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Get latest release version
+        id: latest-release
+        uses: fangqiuming/latest-release-version@v1.1.1
+
       - name: Replace version
         run: |
-          sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" pack.toml
-          echo "VERSION=$(git rev-parse --short "$GITHUB_SHA")" >> "$GITHUB_ENV"
-          sed -i "s/_VERSION_/0.0.0/g" config/fabric_loader_dependencies.json
-          find config -type f -exec sed -i "s/_VERSION_/$(git rev-parse --short "$GITHUB_SHA")/g" {} +
-          find config -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
+          echo "VERSION=${{ steps.latest-release.outputs.tag_name }}-$(git rev-parse --short "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          sed -i "s/_VERSION_/${{ steps.latest-release.outputs.tag_name }}/g" config/fabric_loader_dependencies.json
+          find . -type f -exec sed -i "s/_VERSION_/${{ steps.latest-release.outputs.tag_name }}-$(git rev-parse --short "$GITHUB_SHA")/g" {} +
+          find . -type f -exec sed -i "s/_COMMIT_/${{ github.sha }}/g" {} +
 
       - name: Install Packwiz
         run: |
@@ -83,4 +87,4 @@ jobs:
           java -jar cmcl.jar config printStartupInfo true
           java -jar cmcl.jar config checkAccountBeforeStart false
           echo "0" | java -jar cmcl.jar CI
-          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform" .minecraft/versions/CI/latest.log` -ne "0" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
+          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform" .minecraft/versions/CI/logs/latest.log` -ne "1" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
