@@ -1,3 +1,5 @@
 /.github/
 LICENSE
 README.md
+/mods/*.disabled
+/config/**/*.disabled
