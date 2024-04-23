@@ -1,11 +1,11 @@
 name = "Embeddium"
-filename = "embeddium-fabric-0.3.14+mc1.20.5-pre2.jar"
+filename = "embeddium-fabric-0.3.14+mc1.20.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/8ZSgkYpx/embeddium-fabric-0.3.14%2Bmc1.20.5-pre2.jar"
+url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/7thkIfOS/embeddium-fabric-0.3.14%2Bmc1.20.5.jar"
 hash-format = "sha512"
-hash = "1b022acc00009447f8c0f68d48ea57f6b38eb7e418f234473db2bbe316e7ebd17d971ea93193589b52234d9c1d780438eb18116caefff6a35a6b807412e20650"
+hash = "9e9d7d828195de6873cadfbfe89ec61ae0942177d6da5dfb63d98d29fa7bfe033cb73afa315449fe9b59886f3166c280cce24d5b37465a058d8323a20f80a6c4"
 
 [update]
 [update.curseforge]
@@ -13,4 +13,4 @@ file-id = 5265349
 project-id = 908741
 [update.modrinth]
 mod-id = "sk9rgfiA"
-version = "8ZSgkYpx"
+version = "7thkIfOS"
