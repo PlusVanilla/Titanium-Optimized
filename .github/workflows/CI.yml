@@ -87,4 +87,7 @@ jobs:
           java -jar cmcl.jar config printStartupInfo true
           java -jar cmcl.jar config checkAccountBeforeStart false
           echo "0" | java -jar cmcl.jar CI
+          cat .minecraft/versions/CI/logs/latest.log
+          ls -n .minecraft/versions/CI/logs/
+          ls -n .minecraft/versions/CI/
           if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init" .minecraft/versions/CI/logs/latest.log` -ne "1" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
