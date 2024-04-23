@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Modrinth
-          path: Titanium-${{ env.VERSION }}.mrpack
+          path: Titanium Optimized-${{ env.VERSION }}.mrpack
           if-no-files-found: error
 
       - name: Export CurseForge modpack
@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CurseForge
-          path: Titanium-${{ env.VERSION }}.zip
+          path: Titanium Optimized-${{ env.VERSION }}.zip
           if-no-files-found: error
 
       - name: Update mods

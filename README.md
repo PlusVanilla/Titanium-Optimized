@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-**Titanium requires a supported driver for the graphics card to work properly, see [Sodium's Driver Compatibility](https://github.com/CaffeineMC/sodium-fabric/wiki/Driver-Compatibility) to learn how to upgrade them.**
+**Titanium Optimized requires a supported driver for the graphics card to work properly, see [Sodium's Driver Compatibility](https://github.com/CaffeineMC/sodium-fabric/wiki/Driver-Compatibility) to learn how to upgrade them.**
 
 ## Feature
 
@@ -24,6 +24,6 @@ The third part `1` is defined by the modpack itself and it is recommended that y
 
 You are welcome to base your modifications on this modpack, which is packaged using Packwiz and hosted on GitHub, so it can be easily forked and modified.
 
-You should also need to state that this modpack is based on Titanium, which is best linked back to this page.
+You should also need to state that this modpack is based on Titanium Optimized, which is best linked back to this page.
 
-**Need an example? [RE:Vanilla](https://modrinth.com/modpack/revanillaw) is a derivative of Titanium!**
+**Need an example? [RE:Vanilla](https://modrinth.com/modpack/revanillaw) is a derivative of Titanium Optimized!**

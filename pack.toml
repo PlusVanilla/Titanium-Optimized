@@ -1,7 +1,7 @@
-name = "Titanium"
+name = "Titanium Optimized"
 author = "LittleChest"
 version = "_VERSION_"
-description = "Improve your Minecraft experience with the ultimate in optimisation and without any QoL features!"
+description = "Improve your Minecraft experience with extreme performance and lots of bug fixes without any QoL features!"
 pack-format = "packwiz:1.1.0"
 
 [index]
