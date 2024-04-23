@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Modrinth
-          path: Extremely Optimised-${{ env.VERSION }}.mrpack
+          path: Titanium-${{ env.VERSION }}.mrpack
           if-no-files-found: error
 
       - name: Export CurseForge modpack
@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CurseForge
-          path: Extremely Optimised-${{ env.VERSION }}.zip
+          path: Titanium-${{ env.VERSION }}.zip
           if-no-files-found: error
 
       - name: Update mods
@@ -87,7 +87,4 @@ jobs:
           java -jar cmcl.jar config printStartupInfo true
           java -jar cmcl.jar config checkAccountBeforeStart false
           echo "0" | java -jar cmcl.jar CI
-          cat .minecraft/versions/CI/logs/latest.log
-          ls -n .minecraft/versions/CI/logs/
-          ls -n .minecraft/versions/CI/
           if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init" .minecraft/versions/CI/crash-reports/crash-*-client.txt` -ne "1" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
