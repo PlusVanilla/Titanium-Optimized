@@ -3,13 +3,13 @@ filename = "embeddium-fabric-0.3.14+mc1.20.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/7thkIfOS/embeddium-fabric-0.3.14%2Bmc1.20.5.jar"
-hash-format = "sha512"
-hash = "9e9d7d828195de6873cadfbfe89ec61ae0942177d6da5dfb63d98d29fa7bfe033cb73afa315449fe9b59886f3166c280cce24d5b37465a058d8323a20f80a6c4"
+hash-format = "sha1"
+hash = "a2789dec727f0a18c8f544de92a64dde1d1e067f"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5265349
+file-id = 5284778
 project-id = 908741
 [update.modrinth]
 mod-id = "sk9rgfiA"
