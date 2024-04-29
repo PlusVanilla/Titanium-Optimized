@@ -3,9 +3,9 @@ filename = "embeddium-fabric-0.3.15+mc1.20.5.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "f5b200e53aacaec1abd45990f7e7d56229883359"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/E2hEqxns/embeddium-fabric-0.3.15%2Bmc1.20.5.jar"
+hash-format = "sha512"
+hash = "83fc50e66d099a8999a854f38d92ab1409950b845bf851889cc592f38c536a9306e6616c4d8e47e57fd6c40600f3b226b0e2f2ee848ad9f8e138d737e9f425d4"
 
 [update]
 [update.curseforge]

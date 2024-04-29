@@ -3,9 +3,9 @@ filename = "sodium-shadowy-path-blocks-3.3.0.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "96e0844be3843e3973ffe5eabf17a67affe66e61"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/EIa1eiMm/versions/hnQBKLCn/sodium-shadowy-path-blocks-3.3.0.jar"
+hash-format = "sha512"
+hash = "433242bffc6459208f9425f9bd4604dae9d17314bc31913c6d92a7f759519b411d7e9b0c1804c42da7116d2083e866bf675d236c28b12c38023b63d6bc7e1ccc"
 
 [update]
 [update.curseforge]
