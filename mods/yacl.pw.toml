@@ -1,0 +1,16 @@
+name = "YetAnotherConfigLib"
+filename = "YetAnotherConfigLib-3.4.2+1.20.5-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/rsM9VY0D/YetAnotherConfigLib-3.4.2%2B1.20.5-fabric.jar"
+hash-format = "sha512"
+hash = "4507c9107d43b985a37fdc28e671aa0dcea4377d8283e54a70aad06ab47e5208550bb3cbf10c1fe7cf5fd2485415b5f379cc384bcf1a0678f7e85f91c6bb75b2"
+
+[update]
+[update.curseforge]
+file-id = 5302273
+project-id = 667299
+[update.modrinth]
+mod-id = "1eAoo2KR"
+version = "rsM9VY0D"

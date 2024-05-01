@@ -25,6 +25,10 @@ file = "config/yosbr/config/fabric_loader_dependencies.json"
 file = "config/yosbr/options.txt"
 
 [[files]]
+file = "mods/async-pack-scan.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 metafile = true
 
@@ -57,7 +61,15 @@ file = "mods/cursorcentered-fix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/debugify.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
@@ -70,6 +82,10 @@ metafile = true
 
 [[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
@@ -86,6 +102,10 @@ metafile = true
 
 [[files]]
 file = "mods/lazy-language-loader.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
 metafile = true
 
 [[files]]
@@ -166,6 +186,10 @@ metafile = true
 
 [[files]]
 file = "mods/windows-keyboard-fixes-fixes-sticky-keys.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
 metafile = true
 
 [[files]]

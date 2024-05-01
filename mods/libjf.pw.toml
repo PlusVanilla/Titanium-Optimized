@@ -1,0 +1,16 @@
+name = "LibJF"
+filename = "libjf-3.15.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/LAYNtsyE/libjf-3.15.6.jar"
+hash-format = "sha512"
+hash = "a4082d47cf9c3c875c4af78a2c93de876e989bc483fbee4e0b7a0d724545b5154e1e58c82a77a07c00fe6a38117fbe2fd3114281c0540afb97f346ecd4a63222"
+
+[update]
+[update.curseforge]
+file-id = 5290527
+project-id = 482600
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "LAYNtsyE"
