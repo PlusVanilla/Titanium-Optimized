@@ -25,6 +25,10 @@ file = "config/yosbr/config/fabric_loader_dependencies.json"
 file = "config/yosbr/options.txt"
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/better-beds.pw.toml"
 metafile = true
 
@@ -77,6 +81,10 @@ file = "mods/imblocker-original.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lazy-language-loader.pw.toml"
 metafile = true
 
@@ -85,11 +93,19 @@ file = "mods/list-entry-highlight-fix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/modelfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
 metafile = true
 
 [[files]]
@@ -113,6 +129,10 @@ file = "mods/remember-my-txt.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/server-resource-pack-checker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/serveraddressspacefix.pw.toml"
 metafile = true
 
@@ -125,7 +145,15 @@ file = "mods/smoothmenu-refabricated.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sodium-shadowy-path-blocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-shortcuts.pw.toml"
 metafile = true
 
 [[files]]
