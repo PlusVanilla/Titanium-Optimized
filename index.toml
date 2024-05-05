@@ -61,10 +61,6 @@ file = "mods/cursorcentered-fix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/debugify.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -146,10 +142,6 @@ metafile = true
 
 [[files]]
 file = "mods/option-focus-fix.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/reeses-sodium-options.pw.toml"
 metafile = true
 
 [[files]]
