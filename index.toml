@@ -85,6 +85,10 @@ file = "mods/fastopenlinksandfolders.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fastquit.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 metafile = true
 
@@ -98,6 +102,10 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
 metafile = true
 
 [[files]]
