@@ -29,7 +29,7 @@ jobs:
 
       - name: Export Modrinth modpack
         run: |
-          packwiz rehash sha256
+          packwiz rehash sha512
           packwiz modrinth export
 
       - name: Upload Modrinth modpack
@@ -86,5 +86,5 @@ jobs:
           java -jar cmcl.jar config exitWithMinecraft true
           java -jar cmcl.jar config printStartupInfo true
           java -jar cmcl.jar config checkAccountBeforeStart false
-          echo "0" | java -jar cmcl.jar CI
-          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init" .minecraft/versions/CI/crash-reports/crash-*-client.txt` -ne "1" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
+          echo "0" | java -jar cmcl.jar CI | tee output.log
+          if [ `grep -c "java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init" output.log` -ne "1" ]; then echo "::error title=Game crashed::Oops." && exit 1; fi
