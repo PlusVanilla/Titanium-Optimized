@@ -1,0 +1,16 @@
+name = "LibJF"
+filename = "libjf-3.15.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/V42W4SCh/libjf-3.15.5.jar"
+hash-format = "sha512"
+hash = "bc13720dbaf18e7c17f022b3990a6c2736bdc208e4b351a46fa3f0bae271ebf69c6a0a61d9a1933339afd3b50ed56d67066dc0307d79620a849ad088089aa940"
+
+[update]
+[update.curseforge]
+file-id = 5290527
+project-id = 482600
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "V42W4SCh"

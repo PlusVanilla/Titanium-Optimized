@@ -1,0 +1,16 @@
+name = "ImmediatelyFast"
+filename = "ImmediatelyFast-Fabric-1.2.14+1.20.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/CdHWqPx2/ImmediatelyFast-Fabric-1.2.14%2B1.20.6.jar"
+hash-format = "sha512"
+hash = "97b89ff3146dbd48c588a5abdacec9605d38a3ccd00a5d1940da7fe51906cdeaef82bb24cc31f2a1c0b69b4b4824279d14c3169d923748d41cc9df0b09be55e8"
+
+[update]
+[update.curseforge]
+file-id = 5317939
+project-id = 686911
+[update.modrinth]
+mod-id = "5ZwdcRci"
+version = "CdHWqPx2"

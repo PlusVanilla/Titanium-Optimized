@@ -1,0 +1,13 @@
+name = "Video Tape"
+filename = "videotape-1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LVTZtqlk/versions/Xhg3plg3/videotape-1.3.0.jar"
+hash-format = "sha512"
+hash = "2b7f3479fc24b1e806163c0d5c4950bd8e617bb7fb67056ee8b96832132a7b67d94d83e7b5735f30fbfbd9279b85db15c1e9f7cb7e22c94dae572eb102627b2b"
+
+[update]
+[update.modrinth]
+mod-id = "LVTZtqlk"
+version = "Xhg3plg3"
