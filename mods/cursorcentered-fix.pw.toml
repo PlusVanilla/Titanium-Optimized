@@ -3,14 +3,14 @@ filename = "cursorcenteredfix-1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/3Vf97jLY/versions/kG0aSI4F/cursorcenteredfix-1.0.jar"
+url = "https://cdn.modrinth.com/data/3Vf97jLY/versions/FpV8b2oP/cursorcenteredfix-1.0.jar"
 hash-format = "sha512"
-hash = "a377657169e2de7f7e71c5a1729c31ae2ef4f9ded5ffcdb3c2d7ca365fab6a9ffa644a8651380cf19aed4a40bb392dacf1fb6a0b952a0bcb4187cdf76d589cfb"
+hash = "6b11c720c2d6fe6a7a19e85e8359cfd264446fc6223f835afc01f07f030281cecab3ad173da5d6776a9e7714607410ed796a79c34540a104efd8b82c69977ec2"
 
 [update]
 [update.curseforge]
-file-id = 4602233
+file-id = 5428712
 project-id = 846580
 [update.modrinth]
 mod-id = "3Vf97jLY"
-version = "kG0aSI4F"
+version = "FpV8b2oP"

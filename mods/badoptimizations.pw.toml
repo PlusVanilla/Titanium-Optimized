@@ -1,16 +1,16 @@
 name = "BadOptimizations"
-filename = "BadOptimizations-2.1.1.jar"
+filename = "BadOptimizations-2.1.4-1.20.5-20.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/bpmrr094/BadOptimizations-2.1.1.jar"
+url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/j3hOwXG0/BadOptimizations-2.1.4-1.20.5-20.6.jar"
 hash-format = "sha512"
-hash = "3f08d72be162282703f389cbb1e022bf759b8a6538f8dbcaccefdc94f7af894a50f599e7fa993105b4a66d3d79c9ceda64ad1ce9d8b6720ad20522e427725499"
+hash = "f8710537c1c07cc9816c48396504b588ca0aef05f8debfbbbf5755ab0a770e0cc8570f1fadfa5d3f758d579bccaee5742325af430d23a1c95514dcdb601d28f0"
 
 [update]
 [update.curseforge]
-file-id = 5294534
+file-id = 5430276
 project-id = 949555
 [update.modrinth]
 mod-id = "g96Z4WVZ"
-version = "bpmrr094"
+version = "j3hOwXG0"
