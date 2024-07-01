@@ -1,16 +1,16 @@
 name = "lazy-language-loader (Fabric)"
-filename = "lazy-language-loader-0.3.6.jar"
+filename = "lazy-language-loader-0.3.7.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Nz0RSWrF/versions/Z9rtEyTY/lazy-language-loader-0.3.6.jar"
+url = "https://cdn.modrinth.com/data/Nz0RSWrF/versions/4cZkq7uT/lazy-language-loader-0.3.7.jar"
 hash-format = "sha512"
-hash = "4b2ad5949d6e5984876201a1e50b28d18c6fc2646c9f4221df7dda32a25b23ca3c1598ab6bcbcb1c24dac1536ea0f92836e749608c60611f6dcd2908d28c237d"
+hash = "3d1ad59a3c30fe4f6180eadb92ba2149757e01038ae72621b483e1d6060c6c05436a9d78960f73223ff73aa0f0fe13fb9138cafdb7e30b7de3f42fa4d553d3f6"
 
 [update]
 [update.curseforge]
-file-id = 5285041
+file-id = 5424333
 project-id = 526391
 [update.modrinth]
 mod-id = "Nz0RSWrF"
-version = "Z9rtEyTY"
+version = "4cZkq7uT"

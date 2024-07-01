@@ -1,16 +1,16 @@
 name = "Better Beds"
-filename = "betterbeds-1.3.0-1.19.3.jar"
+filename = "betterbeds-fabric-1.4.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/kKwy3HU9/versions/oA7DgMo2/betterbeds-1.3.0-1.19.3.jar"
+url = "https://cdn.modrinth.com/data/kKwy3HU9/versions/ZPmX9Uy3/betterbeds-fabric-1.4.0.jar"
 hash-format = "sha512"
-hash = "47c9237393b83c5eee2c82b48fefc82bf4ff932161e78fac0318f52cfc33615b19a0a7e5cacfecf2ef35d603da5af9c69bdaf365db4de1eb1aa90aae647d18f7"
+hash = "7aacef2c10e66c91a66fc79b5d7edb933ed3654faea9b7d3bae369979c7d29589bacf258d9620cef95e4dc142b2f9b6adf9031640fe842e149d305a1602ac34d"
 
 [update]
 [update.curseforge]
-file-id = 4369573
+file-id = 5437848
 project-id = 443782
 [update.modrinth]
 mod-id = "kKwy3HU9"
-version = "oA7DgMo2"
+version = "ZPmX9Uy3"

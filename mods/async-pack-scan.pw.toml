@@ -1,16 +1,16 @@
 name = "Async Pack Scan"
-filename = "async-pack-scan-0.2.4.jar"
+filename = "async-pack-scan-0.2.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/FuRR0tKd/versions/lJe3oD9L/async-pack-scan-0.2.4.jar"
+url = "https://cdn.modrinth.com/data/FuRR0tKd/versions/qdMIHUJo/async-pack-scan-0.2.5.jar"
 hash-format = "sha512"
-hash = "95efaa3fdd86cdfefbfdfc182cda412bd356888e9d6d1485bf989e49f025fb3c23bc5d2965ad7edd0139c097b8cdc88503cc9427bce97b13efc031462e296439"
+hash = "c5fc63edb2d6789d848a8ef6d0ccd70a122b224f86d307aa468dc05e6a6fc9b92c3fcda20fbcb96bd38d438bb58afd704ad8bb7f4a06485cf573a31ca6f29371"
 
 [update]
 [update.curseforge]
-file-id = 5290153
+file-id = 5427119
 project-id = 881560
 [update.modrinth]
 mod-id = "FuRR0tKd"
-version = "lJe3oD9L"
+version = "qdMIHUJo"

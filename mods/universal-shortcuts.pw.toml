@@ -1,13 +1,13 @@
 name = "Universal Shortcuts (Ctrl+A fix)"
-filename = "universal-shortcuts-1.3.1.jar"
+filename = "universal-shortcuts-1.3.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/pKlCsfkH/versions/XKudoZ01/universal-shortcuts-1.3.1.jar"
+url = "https://cdn.modrinth.com/data/pKlCsfkH/versions/1HolCPSw/universal-shortcuts-1.3.2.jar"
 hash-format = "sha512"
-hash = "9f788236c634ad73f56b50f4651d0590f919546c0f039d7d5f7310bdafba3d55c13dfbc07a6e9d9003b75de01f5c81c9b862c811bd1868dad84bf855f77d8565"
+hash = "6739e5038c61ea38cca546d338e979b21c75000b4a4e9d2aa7d4341da7223a417babe2f181ca15ac853914a94a25bcc970190d40a276ad71d56f227ed3fdf8f0"
 
 [update]
 [update.modrinth]
 mod-id = "pKlCsfkH"
-version = "XKudoZ01"
+version = "1HolCPSw"
