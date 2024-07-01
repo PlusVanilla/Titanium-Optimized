@@ -142,10 +142,6 @@ file = "mods/notenoughcrashes.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/noxesium.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/nvidium.pw.toml"
 metafile = true
 
