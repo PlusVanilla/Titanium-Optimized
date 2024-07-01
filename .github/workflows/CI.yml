@@ -54,6 +54,7 @@ jobs:
       - name: Update mods
         run: |
           echo "" > .packwizignore
+          packwiz refresh --build
           packwiz update --all -y | tee UPDATE_LOG
           if [ `grep -c "All files are up to date!" UPDATE_LOG` -ne "1" ]; then echo "::warning title=Update Available::Some mods can be updated."; fi
 
