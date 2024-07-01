@@ -1,5 +1,8 @@
 > This modpack contains some radical optimisations, so your Minecraft performance will be further improved!
 
+> [!NOTE]
+> **Support for this version has ended!** This version will not be further updated unless there are serious problems (e.g. crashes). You can still create your derivatives based on this branch.
+
 ## Getting Started
 
 **Titanium Optimized requires a supported driver for the graphics card to work properly, see [Sodium's Driver Compatibility](https://github.com/CaffeineMC/sodium-fabric/wiki/Driver-Compatibility) to learn how to upgrade them.**
