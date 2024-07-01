@@ -1,16 +1,16 @@
-name = "fast-ip-ping"
-filename = "fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar"
+name = "Fast IP Ping"
+filename = "fast-ip-ping-mc1.20.6-fabric-v1.0.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/U5CYxkEG/fast-ip-ping-mc1.20.4-fabric-v1.0.1.jar"
+url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/orgSirxs/fast-ip-ping-mc1.20.6-fabric-v1.0.3.jar"
 hash-format = "sha512"
-hash = "8ef8b2deefaf5e0b0358c12f72e5fafe9b4bb66a2f53eb7f1b8085dc25c25c6c876ea9a0ee55a3dbb2deead97b8b98be4780cfe51e9e214dd109e456ade2b775"
+hash = "71011b7801ce20fe6dcf4c4599be904c740551f372f6d2d565fb31ddcd09f4a7abee4c0f45296c8a002f5c9f2dcc8f2860cb5cc00f84ea1987a4a48787ce2dac"
 
 [update]
 [update.curseforge]
-file-id = 4976616
+file-id = 5454482
 project-id = 904356
 [update.modrinth]
 mod-id = "9mtu0sUO"
-version = "U5CYxkEG"
+version = "orgSirxs"
