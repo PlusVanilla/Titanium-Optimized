@@ -46,10 +46,6 @@ file = "mods/better-beds.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/better-line-break.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
@@ -75,10 +71,6 @@ metafile = true
 
 [[files]]
 file = "mods/ebe.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/embeddium.pw.toml"
 metafile = true
 
 [[files]]
@@ -115,6 +107,10 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
 metafile = true
 
 [[files]]
@@ -170,6 +166,10 @@ file = "mods/option-focus-fix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/remember-my-txt.pw.toml"
 metafile = true
 
@@ -198,7 +198,7 @@ file = "mods/sodium-shadowy-path-blocks.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/threadtweak.pw.toml"
+file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
