@@ -22,9 +22,6 @@ file = "config/yosbr/config/debugify.json"
 file = "config/yosbr/config/embeddium-options.json"
 
 [[files]]
-file = "config/yosbr/config/exordium.json.disabled"
-
-[[files]]
 file = "config/yosbr/config/fabric_loader_dependencies.json"
 
 [[files]]
@@ -35,26 +32,6 @@ file = "config/yosbr/config/modernfix-mixins.properties"
 
 [[files]]
 file = "config/yosbr/options.txt"
-
-[[files]]
-file = "mods/DISABLED-bedrodium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/DISABLED-better-sodium-video-settings-button.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/DISABLED-ebe.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/DISABLED-exordium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/DISABLED-level-text-fix.pw.toml"
-metafile = true
 
 [[files]]
 file = "mods/async-pack-scan.pw.toml"
@@ -94,6 +71,10 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
 metafile = true
 
 [[files]]
