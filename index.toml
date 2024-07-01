@@ -86,10 +86,6 @@ file = "mods/fast-ip-ping.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fastopenlinksandfolders.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/fastquit.pw.toml"
 metafile = true
 
@@ -107,10 +103,6 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/indium.pw.toml"
 metafile = true
 
 [[files]]
@@ -143,10 +135,6 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/moreculling.pw.toml"
 metafile = true
 
 [[files]]
