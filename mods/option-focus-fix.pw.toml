@@ -1,0 +1,13 @@
+name = "Option Focus Fix"
+filename = "optionfocusfix-1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TEALOTET/versions/TveexE4L/optionfocusfix-1.3.0.jar"
+hash-format = "sha512"
+hash = "78cfd6834dc5dd56d59f463c3507d79ee0636c0464b88cc0f6f1dfda9b985112254fc7cc37bfa3970f3e615db7af4487e3a9a61ba60b453478bb67fb84865207"
+
+[update]
+[update.modrinth]
+mod-id = "TEALOTET"
+version = "TveexE4L"

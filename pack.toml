@@ -1,0 +1,16 @@
+name = "Titanium Optimized"
+author = "LittleChest"
+version = "21.0.0"
+description = "Improve your Minecraft experience with extreme performance and lots of bug fixes without any QoL features!"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.21"
+
+[options]
+no-internal-hashes = true
